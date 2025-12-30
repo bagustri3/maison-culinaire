@@ -111,14 +111,19 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <i className="ri-map-pin-line text-amber-400 text-lg sm:text-xl mt-1 flex-shrink-0"></i>
-                <span className="text-sm sm:text-base text-gray-400">
-                  Bandung Barat, Jawa Barat, Indonesia
-                </span>
+                <div className="flex flex-col gap-1">
+                  <span className="text-sm sm:text-base text-gray-400">
+                    Kotabaru Parahyangan
+                  </span>
+                  <span className="text-sm sm:text-base text-gray-400">
+                    Bandung Barat, Jawa Barat, Indonesia
+                  </span>
+                </div>
               </li>
               <li className="flex items-center gap-3">
                 <i className="ri-phone-line text-amber-400 text-lg sm:text-xl flex-shrink-0"></i>
                 <span className="text-sm sm:text-base text-gray-400">
-                  +62 821-1870-8018
+                  +62 812-1777-7674
                 </span>
               </li>
             </ul>
@@ -135,7 +140,8 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-6 sm:pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-xs sm:text-sm text-gray-400 text-center sm:text-left">
-              © 2024 Maison Culinaire. All rights reserved.
+              © {new Date().getFullYear()} Maison Culinaire. All rights
+              reserved.
             </p>
           </div>
         </div>
