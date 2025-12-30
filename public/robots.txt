@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maisonculinaire.netlify.app/sitemap.xml
